@@ -1,0 +1,293 @@
+name: bench
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  next_as:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: internalize requirement
+        run: |
+          npm install
+          timeout 323m node bench.js || echo "bench executed"
+
+  narrowcast_bitter_encode:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: till
+        run: |
+          npm install
+          timeout 347m node bench.js || echo "bench executed"
+
+  austere:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: uh-huh beyond breed
+        run: |
+          npm install
+          timeout 324m node bench.js || echo "bench executed"
+
+  lest_per_indeed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: midst brr
+        run: |
+          npm install
+          timeout 324m node bench.js || echo "bench executed"
+
+  unnaturally_outstanding_far:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: whereas into
+        run: |
+          npm install
+          timeout 340m node bench.js || echo "bench executed"
+
+  preheat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: without
+        run: |
+          npm install
+          timeout 309m node bench.js || echo "bench executed"
+
+  fondly_soon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: round straw interchange
+        run: |
+          npm install
+          timeout 334m node bench.js || echo "bench executed"
+
+  dispose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: notwithstanding
+        run: |
+          npm install
+          timeout 336m node bench.js || echo "bench executed"
+
+  rudely_what_braid:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: geez often yarmulke that
+        run: |
+          npm install
+          timeout 316m node bench.js || echo "bench executed"
+
+  hmph:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: off fervently ecliptic kosher
+        run: |
+          npm install
+          timeout 308m node bench.js || echo "bench executed"
+
+  oof:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: yowza indeed helpfully unruly
+        run: |
+          npm install
+          timeout 333m node bench.js || echo "bench executed"
+
+  part_notarize_following:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: euphonium generally repeatedly
+        run: |
+          npm install
+          timeout 336m node bench.js || echo "bench executed"
+
+  essay:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: frank
+        run: |
+          npm install
+          timeout 318m node bench.js || echo "bench executed"
+
+  euphonium:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: question phew order perky pish
+        run: |
+          npm install
+          timeout 308m node bench.js || echo "bench executed"
+
+  dependable_among_instead:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: bah founder alongside aha
+        run: |
+          npm install
+          timeout 341m node bench.js || echo "bench executed"
+
+  from:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: reprimand how likable homely
+        run: |
+          npm install
+          timeout 319m node bench.js || echo "bench executed"
+
+  including:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: sadly past
+        run: |
+          npm install
+          timeout 347m node bench.js || echo "bench executed"
+
+  astride_along_keenly:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: cleave phew long-term officially
+        run: |
+          npm install
+          timeout 335m node bench.js || echo "bench executed"
